@@ -18,8 +18,6 @@ module.exports = {
   'split': require('./split'),
   'startCase': require('./startCase'),
   'startsWith': require('./startsWith'),
-  'template': require('./template'),
-  'templateSettings': require('./templateSettings'),
   'toLower': require('./toLower'),
   'toUpper': require('./toUpper'),
   'trim': require('./trim'),
