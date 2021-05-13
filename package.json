@@ -1,10 +1,10 @@
 {
-  "name": "lodash",
-  "version": "4.17.21",
+  "name": "@exodus/lodash",
+  "version": "4.17.21-exodus.2",
   "description": "Lodash modular utilities.",
   "keywords": "modules, stdlib, util",
   "homepage": "https://lodash.com/",
-  "repository": "lodash/lodash",
+  "repository": "ExodusMovement/lodash",
   "icon": "https://lodash.com/icon.svg",
   "license": "MIT",
   "main": "lodash.js",
