@@ -8,6 +8,9 @@
   "icon": "https://lodash.com/icon.svg",
   "license": "MIT",
   "main": "lodash.js",
+  "files": [
+    "*.js"
+  ],
   "author": "John-David Dalton <john.david.dalton@gmail.com>",
   "contributors": [
     "John-David Dalton <john.david.dalton@gmail.com>",
