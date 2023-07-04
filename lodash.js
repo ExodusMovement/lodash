@@ -10621,12 +10621,12 @@
         memoized.cache = cache.set(key, result) || cache;
         return result;
       };
-      memoized.cache = new (memoize.Cache || MapCache);
+      memoized.cache = new (memoize.Cache || Map);
       return memoized;
     }
 
     // Expose `MapCache`.
-    memoize.Cache = MapCache;
+    memoize.Cache = Map;
 
     /**
      * Creates a function that negates the result of the predicate `func`. The
