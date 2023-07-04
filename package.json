@@ -1,6 +1,6 @@
 {
   "name": "@exodus/lodash",
-  "version": "4.17.21-exodus.2",
+  "version": "4.17.21-exodus.3",
   "description": "Lodash modular utilities.",
   "keywords": "modules, stdlib, util",
   "homepage": "https://lodash.com/",

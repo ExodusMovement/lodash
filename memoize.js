@@ -1,5 +1,3 @@
-var MapCache = require('./_MapCache');
-
 /** Error message constants. */
 var FUNC_ERROR_TEXT = 'Expected a function';
 
@@ -63,11 +61,11 @@ function memoize(func, resolver) {
     memoized.cache = cache.set(key, result) || cache;
     return result;
   };
-  memoized.cache = new (memoize.Cache || MapCache);
+  memoized.cache = new (memoize.Cache || Map);
   return memoized;
 }
 
 // Expose `MapCache`.
-memoize.Cache = MapCache;
+memoize.Cache = Map;
 
 module.exports = memoize;
